@@ -14,7 +14,7 @@ function love.conf(argC)
 	argC.console = true																															-- Windows only
 
 	config.gameVersion = "0.0.1"
-	argC.window.title = [[clipperTest, v]] .. config.gameVersion .. " (" .. os.date("%Y.%m.%d-%H.%M.%S") .. [[); Copyright © Savoshchanka Anton, 2015 (twitter.com/AntonioModer); LÖVE 2D-framework (love2d.org)]]
+	argC.window.title = [[cutHolesTest, v]] .. config.gameVersion .. " (" .. os.date("%Y.%m.%d-%H.%M.%S") .. [[); Copyright © Savoshchanka Anton, 2015 (twitter.com/AntonioModer); LÖVE 2D-framework (love2d.org)]]
 	argC.window.icon = nil																														-- Filepath to an image to use as the window's icon (string)
 	argC.window.width = 800
 	argC.window.height = 600
